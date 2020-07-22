@@ -1,11 +1,12 @@
 [package]
 name = "inullify"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jeremiah Shaulov <jeremiah.shaulov@gmail.com>"]
 keywords = ["server-guard", "antivirus"]
 categories = ["command-line-utilities", "filesystem"]
 description = "Watch directories, and truncate dangerous files."
 license = "MIT"
+readme = "README.md"
 
 [dependencies]
 getopts = "0.2"
