@@ -2,6 +2,8 @@
 name = "inullify"
 version = "0.1.0"
 authors = ["Jeremiah Shaulov <jeremiah.shaulov@gmail.com>"]
+keywords = ["server guard", "antivirus"]
+categories = ["command-line-utilities", "filesystem"]
 
 [dependencies]
 getopts = "0.2"
