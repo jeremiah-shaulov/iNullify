@@ -5,6 +5,15 @@ This command-line utility watches given directories for new files, and for chang
 A dangerous file is a file that matches given regular expression. By default `(?P<ELF>\x7FELF)|(?P<PHP><\?)`, that guards against uploading ELFs (linux executables) and PHP files.
 
 
+## Installation
+
+This is cargo software. First you need to install cargo, if you didn't yet: see [how to do this](https://doc.rust-lang.org/cargo/getting-started/installation.html). Then:
+
+```bash
+cargo install inullify
+```
+
+
 ## Usage
 
 ```bash
