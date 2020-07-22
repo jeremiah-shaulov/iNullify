@@ -1,0 +1,10 @@
+[package]
+name = "inullify"
+version = "0.1.0"
+authors = ["Jeremiah Shaulov <jeremiah.shaulov@gmail.com>"]
+
+[dependencies]
+getopts = "0.2"
+inotify = "0.4"
+regex = "1"
+time = "0.1"
